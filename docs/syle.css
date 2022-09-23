@@ -5,47 +5,60 @@
     
 }
 .header{
-    width: 100%;
+    
     height: auto;
     justify-content: space-between;
-    display: flex;
+    
     
 }
-.head-text h1{
-    font-size: 44px;
-    color: rgb(31, 26, 52);
-
-}
-.flex-menu{
-    padding: 10px;
-}
-.head-nav nav{
-        display: inline-block;
-    /* padding: 10px; */
-}
-
-.head-nav a{
-
-    display: inline-block;
-    padding: 10px;
-    text-decoration: none;
-    color: rgb(31, 26, 52);
-  
-} 
-.head-nav a:hover{
-    color: rgb(48, 106, 254);
-    text-decoration: none;
-    /* border-width: 5px; */
-    
-    border-bottom: 3px solid rgb(68, 92, 119);
-}
-.head-nav button{
-    padding: 5px 5px;
+.nav-item button{
+    width: 100px;
+    height: 30px;
+    padding: 5px;
     color: rgb(48, 106, 254); 
     box-shadow: 1px 2px 15px 15px solid rgb(247, 239, 239);
     border: 1px solid rgb(247, 239, 239);
     background-color: white;
 }
+
+.quick-access{
+	padding: 10px;
+	background: #ffffff;
+  
+}
+.logo h1{
+	font-size:32px;
+	font-weight: 700;
+	color: #32276a;
+}
+.manu-list{
+    padding-left: 260px;
+}
+.manu-list > ul > li{
+    padding-left: 20px;
+}
+.str-btn{
+    text-decoration: none;
+    padding: 7px 20px;
+    background: #5fcf80;
+    color: #ffffff;
+    border-radius: 50px;
+}
+.str-btn:hover{
+    color: #ffffff;
+}
+.manu-list ul li{
+    list-style: none;
+}
+.manu-list ul li a:hover{
+	color: #5f72cf;
+}
+.manu-list ul li a{
+    text-decoration: none;
+    color: #37423b;
+    font-weight: 600;
+}
+
 .flex-banner{
     background-color: rgb(48, 106, 254); 
 }
@@ -95,7 +108,7 @@
 .banner-text{
     background-color: rgb(111, 165, 235);
     border-radius: 0 0 150px ;
-    position: relative;
+    
 }
 .txt{
     justify-content: center;
@@ -127,6 +140,8 @@
 .image{
     padding: 50px;
     position: relative;
+
+    /* achive */
 }
 .achivements {
     margin-top: 50px;
@@ -139,12 +154,14 @@
 .follow {
     display:flex;
 }
-.hr{
+/* .hr{
     display: inline-block;
     padding-top: 10px;
     width: 10%;
 
-}
+} */
+
+
 .achive-co1 p{
     color: rgb(53, 49, 85);
 }
@@ -172,59 +189,68 @@
     object-fit: cover;
   
 }
-.acc{
-    width: 100%;
-    height: auto; 
-    display: flex;
+ .acc{ 
     
-}
+    height: auto; 
+    display: flex; 
+    
+ } 
+
 .achive-co1{
-    width: 50%;
+    
     height: auto;
 
 }
 .achive-co{
-    width: 50%;
+  width: 33.3%;
     height: auto;
     display: flex;
 }
 .achive1,
 .achive2,
 .achive3{
-    width: 33.3%;
+    
     height: auto;
     
 }
 
 .ache{
-    margin: 10px;
+    
     background-color: rgb(48, 106, 254);
     border-radius: 20px;
-    padding-top: 65px;
-    padding-bottom: 10px;  
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 5px;
+    
+    
 }
 
-.achive-co h1 ,h6{
+.achivements h1,h6{
     color: white;
     text-align: center;
 }
 .ache2{
-    margin: 10px;
-    
+   /* padding-left: -15px;
+   padding-right: -15px;
+    width: 100%; */
     border-radius: 20px;
-    padding-top: 65px;
-    padding-bottom: 35px;  
+    padding-top: 25px;
+    /* padding-bottom: 35px;   */
     background-color: rgb(114, 224, 255);
+    padding-bottom: 25px;
+    margin: 5px;
 }
-.ache3{
-    margin: 10px;
+.ach{
+   
     background-color: rgb(11, 2, 42);
     border-radius: 20px;
-    padding-top: 65px;
-    padding-bottom: 35px;    
- /* about  */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 5px;
+  
 }
 
+/*about  */
 
 .about{
     background-color: rgb(228, 245, 255);
@@ -234,7 +260,7 @@
 }
 
 .abot{
-    width: 100%;
+    
     height: auto;
     display: flex;
   
@@ -307,7 +333,7 @@
     font-size: 14px;
 }
 .aboutimg{
-    width: 50%;
+    
     height: auto;
     background-color: rgb(48, 106, 254);
     border-radius: 10px 0 0 10px;
@@ -317,6 +343,7 @@
     background-color: rgb(48, 106, 254);
     border: 1px solid rgb(48, 106, 254); 
     color: #fff;
+    margin-top: 35px;
 
 
 }
@@ -325,13 +352,16 @@
 .abtme button{
     background-color: #fff;
     border: 1px solid #fff; 
-    
+   
     margin-top: 20px;
     margin-bottom: 20px;
     color: rgb(19, 34, 73);
     padding: 10px;
     border-radius: 5px;
     
+}
+.buttn button{
+    color: #fff;
 }
 .abtme button:hover{
     background-color: rgb(48, 106, 254);
@@ -346,7 +376,7 @@
 }
 /* offer */
 .offer{
-    width: 100%;
+    
     height: auto;
     display: flex;
     flex-wrap: wrap;
@@ -354,34 +384,43 @@
     padding-bottom: 40px;
 }
 .offer1{
-    width: 33.3%;
-    
-    height: auto;
    
-    
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+ 
 }
 .offer11{
     background-color: #fff;
     box-shadow: 0px 0 5px 5px rgb(245, 245, 245);
-   margin: 10px;
+
    padding: 15px;
+   height: 200px;
    border-radius: 5px;
+   margin-bottom: 10px;
    
 }
 .offer1 h3{
     font-size: 18px;
     color: rgb(47, 20, 72);
     padding: 10px 0px;
+    padding: 5px;
+
 }
 .offer1 h4{
     font-size: 12px;
     color: rgb(86, 82, 90);
+    padding: 5px;
+    /* line-height: 25px; */
+
 }
 .icon-abt{
     display: flex;
     width: 100%;
     height: auto;
     margin: 0 auto;
+    padding: 5px;
     
 
 }
@@ -392,6 +431,7 @@
     width: 40px;
     height: 40px;
     padding: 10px;
+    color: #fff;
     border-radius: 10px ;
     background-color:rgb(48, 106, 254) ;
 }
@@ -420,6 +460,7 @@
     border: 1px solid rgb(48, 106, 254) ;
     padding: 5px;
     margin-left: 5px; 
+    color: #fff;
     border-radius: 5px;
 }
 .flex-icn{
@@ -505,7 +546,7 @@
 
 
 .price{
-    margin-left: 28%;
+    /* margin-left: 28%; */
     width: 100px;
     height: 100px;
     border-radius: 100%;
@@ -517,27 +558,33 @@
 
 }
 .prices{
-    width: 100%;
+    
     height: auto;
     display: flex;
     
 }
 .flex-price1{
-    width: 25%;
+   
     height: auto;
    
  
 }
 
 .price1{
-    margin: 20px;
-    box-shadow:  5px 10px 15px rgb(223, 223, 223);
-    text-align: center;
-    padding: 20px;
-
-   
     
-   
+    box-shadow:  0px 0px 25px rgb(239, 234, 234);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+     margin: 10px;
+}
+.flex-pri{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
 }
 .resume h1{
     color: rgb(47, 20, 72);
@@ -545,6 +592,7 @@
 .price1 h2{
     font-size: 20px;
     text-align: center;
+    color: rgb(47, 20, 72);
 }
 .price1 h5{
     font-size: 12px;
@@ -565,25 +613,29 @@
 
 /* klatest work */
 .my-work{
-    background-color: rgb(218, 255, 251);
-    margin: 25px;
+    background-color: rgb(238, 249, 248);
+    margin-top: 25px;
     padding-bottom: 40px;
 
 }
 .work-img{
-    width: 100%;
+    
     height: auto;
     display: flex;
     flex-wrap: wrap;
 }
 .flex-work{
-    width: 31.3%;
+    
     height: auto;
+    
+}
+.work1{
     margin: 10px;
 }
 .flex-work img{
     width: 100%;
     height: auto;
+    margin-bottom: 10px;
 
 }
 .work1 h3{
@@ -592,6 +644,8 @@
 
 }
 .work1 h4{
+    margin: 10px;
+
     font-size: 12px;
     color: rgb(80, 75, 85);
 
@@ -644,27 +698,25 @@
     width: 100%;
     height: auto;
 }
-.ttt{
-    text-align: center;
-    width: 95%;
-    height: auto;
-}
+
 .team{
     margin: 25px;
     padding-bottom: 40px;
 
 }
 .team-img{
-    width: 100%;
+    
     height: auto;
-    display: flex;
 }
 .team-img1{
-    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
     height: auto;
 }
 .team1{
-    margin: 20px;
+
     text-align: center;
   
     
@@ -678,6 +730,7 @@
     padding-bottom: 20px;
 }
 .team-icon{
+    
     width: 100%;
     height: 35px;
     border-radius: 25px;
@@ -709,15 +762,20 @@
     color: white;
 
 }
+.ttt{
+    text-align: center;
+    width: 95%;
+    height: auto;
+}
 .testmonial{
-    width: 100%;
+    
     height: auto;
     display: flex;
     padding-top: 50px;
    
 }
 .flex-test{
-    width: 50%;
+    
     height: auto;
    
 }
@@ -774,19 +832,23 @@
 /* blog */
 .blog{
 width: 100%;
-height: 600px;
+height: auto;
 margin-bottom: 40px;
-}
+} 
 .blogs{
-    position: relative;
-    display: flex;
+    display: inline-block;
+    width: 100%;
+}
+.blogs img{
+    width: 100%;
+    z-index: -2;
 
 }
 .blogbody{
-    position: absolute;
-    top: 210px;
-    width: 90%;
-  
+    margin-top: -40px;
+    width: 100%;
+    z-index: 5;
+    background-color: #ffffff;
 }
 .blogbdy h3{
     font-size: 12px;
@@ -797,11 +859,13 @@ margin-bottom: 40px;
     color: rgb(47, 32, 61);
 }
 .blogbdy{
+    z-index: 3;
     border-radius: 5px;
     margin: 10px;
     background-color: #fff;
-    padding: 15px;
-    box-shadow: 0px 5px 5px 0px rgb(180, 175, 175) ;
+   
+    padding: 20px;
+    box-shadow: 0px 0 5px rgb(180, 175, 175) ;
 }
 
 /* form */
@@ -811,18 +875,18 @@ margin-bottom: 40px;
     padding-bottom: 30px;
 }
 .flex-form{
-    width: 100%;
+    
     height: auto;
     display: flex;
 }
-.form-signin{
+/* .form-signin{
     width: 70%;
     
-}
-.form-contact{
+} */
+/* .form-contact{
     width: 30%;
     
-}
+} */
 .form-sign {
     margin: 10px;
     background-color: #fff;
@@ -856,15 +920,16 @@ margin-bottom: 40px;
     border: 1px solid  rgb(48, 106, 254);
     background-color: rgb(48, 106, 254);
     border-radius: 5px;
+    color: #fff;
     
 }
-.client{
+/* .client{
     width: 100%;
     height: auto;
     display: flex;
-}
+} */
 .client1{
-    width: 20%;
+    
     height: auto;
 }
 .clint-img{
@@ -879,6 +944,11 @@ margin-bottom: 40px;
     margin: 25px;
 }
 /* footer */
+.foot{
+    display: flex;
+    justify-content: center;
+    
+}
 .footer{
     background-color: rgb(21, 21, 41);
     padding: 50px;
